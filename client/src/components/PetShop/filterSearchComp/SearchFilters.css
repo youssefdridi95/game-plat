@@ -1,0 +1,52 @@
+.filter-search-btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.filter-search-btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.filter-search-btn:active {
+	position:relative;
+	top:1px;
+}
+.search-with{
+	display: flex;
+	flex-direction: column;
+}
+.myfilterby{	
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding: 5px 10px;
+	border: 3px solid rgba(64,125,206,0.81);
+	-webkit-border-radius: 7px 14px 14px 7px;
+	border-radius: 10px;
+	font: normal 16px/normal "Times New Roman", Times, serif;
+	color: rgb(50, 86, 100);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+	-webkit-transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 1s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.MuiIconButton-root{
+	border-radius: 10% !important;
+}
+.MuiIconButton-root:hover .MuiTypography-h6,.MuiIconButton-root:hover .MuiSvgIcon-root{
+	color:tomato
+}

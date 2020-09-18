@@ -1,0 +1,30 @@
+#magnifying-glass {
+    font-size: 10em;
+    display: inline-block;
+    width: 0.4em;
+    box-sizing: content-box;
+    height: 0.4em;
+    border: 0.1em solid rgba(57, 110, 223, 0.74);
+    position: relative;
+    border-radius: 0.35em;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/pets-2-1/24/search-locate-pets-find-pet-tracking-tracker-animals-query-magnifying-dog-glass-512.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 20px;
+    box-shadow: 1px 1px 24px 0px rgba(0,0,0,0.75);
+  }
+  #magnifying-glass:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -0.25em;
+    bottom: -0.1em;
+    border-width: 0;
+    background: rgba(57, 110, 223, 0.74);
+    box-shadow: 1px 1px 24px 0px rgba(0,0,0,0.75);
+    width: 0.35em;
+    height: 0.08em;
+    transform: rotate(45deg);
+    margin-bottom: 0px;
+  }
+  

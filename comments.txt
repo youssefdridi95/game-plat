@@ -1,0 +1,4 @@
+"mongoURI":"mongodb+srv://ahmed:ahmed@cluster0-qzgb0.mongodb.net/test?retryWrites=true&w=majority",
+
+
+"mongoURI":"mongodb+srv://bayrem123:bayrem123@cluster0-mioif.mongodb.net/test?retryWrites=true&w=majority",

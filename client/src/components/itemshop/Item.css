@@ -1,0 +1,22 @@
+ 
+   
+
+    .comment{
+        display: flex;
+        padding:1%;
+        text-align: start;
+    }
+    .comment span{
+        margin: 0% 2%;
+    }
+    .enterComment{
+        padding: 2%;
+        border: solid 0.5px gray;
+        border-radius: 3px;
+        margin: 2%;
+        width:100%;
+
+    }
+    
+    
+  
